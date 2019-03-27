@@ -1,2 +1,3 @@
-# SSAS_Cube_Metadata_Generator
-A powershell script is used to output data in json fromat which can then be read easily; python in this case
+# SSAS_Cube_Metadata_Generator (In Progress)
+A list of Powershell scripts to generate metadata for SSAS cubes - Multidim and Tabular
+
