@@ -1,5 +1,5 @@
 param($ServerName="myservername")
-$path = ".\PycharmProjects\ImportFromPowershell\myservername_metadata.json"
+$path = ".\MyFolder\SSAS_metadata.json"
 
 ## Add the AMO namespace
 $loadInfo = [Reflection.Assembly]::LoadWithPartialName("Microsoft.AnalysisServices")
