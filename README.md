@@ -6,6 +6,5 @@ A list of Powershell scripts to generate metadata for SSAS cubes - Multidim and 
 2. Diensions
 3. Data Sources
 4. Measures
-5. Partitions (In progress)
+5. Partitions
 6. Full dump as json
-
