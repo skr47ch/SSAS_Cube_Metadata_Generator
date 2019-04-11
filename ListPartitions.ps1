@@ -3,11 +3,7 @@ $output = ''
 
 # Headers
 $output += "Server Name,Database Name,Cube Name,Measure Group Name,Partition Name" 
-Write-Output($output)
-
 $output | Set-Content partitions.csv
-
-
 
 foreach($srvr in $ServerName) {
     ## Add the AMO namespace
@@ -34,5 +30,4 @@ foreach($srvr in $ServerName) {
             }     
         }
     }
-
 }
